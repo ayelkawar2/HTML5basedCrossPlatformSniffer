@@ -1,0 +1,6 @@
+<?xml version=\"1.0\"?>
+<list>
+<exclude>C:\Windows\</exclude>
+<exclude>C:\Program Files\</exclude>
+<exclude>E:\1DO\FileSniffer\testexclude\</exclude>
+</list>

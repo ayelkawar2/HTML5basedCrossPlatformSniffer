@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr"> 
+  <!-- This file is part of the  Mongoose project,
+    http://code.google.com/p/mongoose -->
+  <head>
+   <title>Sniffer</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+	
+  </head>
+
+  <body>
+	<div id="header"><h1>Cross Platform Sniffer</h1></div>
+	<div class = "cmdlayout">
+	<div class = "label">Directory Path</div>
+
+	<input type="text" id = "textbox1" value = "" required="required" autofocus="autofocus">
+	<br/>
+	<br/>
+	
+	<input type="checkbox" name="summary" value="summary" id="chkbox" /> Summary only<br />
+	<br/>
+	<input type="button" id = "button1" value = "Start Sniffer">
+	<input type="button" id = "button4" value = "Previous Result">
+	<br/>
+	<br/>
+	<input type="button" id = "ClearAll" value = "Clear All">
+	<input type="button" id = "ClearLocal" value = "Clear local data">
+	</div>
+	<div id = "section2">
+	<div class = "filelayout" >
+	<div class = "label" >Files and Folders</div>
+	
+	
+	<div id = "filelist" >
+	<ul id = "list" list-style-type = "none">
+	</ul>
+	
+	</div>
+
+	<span id="sum1" class="summary"> </span>
+	<input type="button" class = "obutton" id = "yesbutton1" value = "Yes">
+	<input type="button" class = "obutton" id = "nobutton1" value = "No">
+	
+	</div>
+	
+	<div class = "rsclayout">
+	<div class = "label" >Processes (instances)</div>
+	<div id = "listgroup">
+	<ul id = "list2" list-style-type = "none">
+	</ul>
+	</div>
+	<span id="sum2" class="summary"> </span>
+	<input type="button" class = "obutton" id = "yesbutton2" value = "Yes">
+	<input type="button" class = "obutton" id = "nobutton2" value = "No">
+	</div>
+	
+	
+	<div class = "portlayout">
+	<div class = "label" >TCP4 Ports </div>
+	<div id = "listgroup2">
+	<ul id = "t4list" list-style-type = "none">
+	</ul>
+	</div>
+	<div id="sumt4" class="summary"> </div>
+	<input type="button" class = "obutton" id = "yesbuttont4" value = "Yes">
+	<input type="button" class = "obutton" id = "nobuttont4" value = "No">
+	</div>
+	
+	<div class = "portlayout">
+	<div class = "label" >UDP4 Ports</div>
+	<div id = "listgroup2">
+	<ul id = "u4list" list-style-type = "none">
+	</ul>
+	</div>
+	<div id="sumu4" class="summary"> </div>
+	<input type="button" class = "obutton" id = "yesbuttonu4" value = "Yes">
+	<input type="button" class = "obutton" id = "nobuttonu4" value = "No">
+	</div>
+	
+	<div class = "portlayout">
+	<div class = "label" >TCP6 Ports</div>
+	<div id = "listgroup2">
+	<ul id = "t6list" list-style-type = "none">
+	</ul>
+	</div>
+	<div id="sumt6" class="summary"> </div>
+	<input type="button" class = "obutton" id = "yesbuttont6" value = "Yes">
+	<input type="button" class = "obutton" id = "nobuttont6" value = "No">
+	</div>
+	
+	<div class = "portlayout">
+	<div class = "label" >UDP6 Ports</div>
+	<div id = "listgroup2">
+	<ul id = "u6list" list-style-type = "none">
+	</ul>
+	</div>
+	<div id="sumu6" class="summary"> </div>
+	<input type="button" class = "obutton" id = "yesbuttonu6" value = "Yes">
+	<input type="button" class = "obutton" id = "nobuttonu6" value = "No">
+	</div>
+	</div>
+
+  </body>
+</html>

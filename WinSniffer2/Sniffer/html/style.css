@@ -1,0 +1,181 @@
+html {
+    overflow-y: scroll;
+}
+
+body 
+{
+
+    padding:0; background-color:#FFFFFF; font-family:tahoma;
+	margin-top:0px;
+    background-repeat: repeat-x;
+    font-family:Arial,Verdana,sans-serif;
+	font-size: 17px;
+	margin:0px;
+}
+h1
+{
+	padding-top:30px;
+	padding-left:20px;
+	
+	margin-bottom:20px;
+	margin-top:0px;
+}
+#header
+{
+	height: 100px;
+	background-color:black;
+	color: white;
+	margin-bottom:20px;
+}
+.rsclayout
+{
+    float:left;
+    margin:0px 20px 0px 20px;
+    width:auto;
+    height:400px;
+    text-align:left;
+}
+
+.cmdlayout
+{
+    float:left;
+    margin:0px 20px 1000px 20px;
+    width:auto;
+    height:auto;
+    text-align:left;
+	padding:10px;
+	box-shadow: 2px 2px 5px #888888;
+	margin-top:25px;
+}
+#section2
+{
+
+}
+#section1
+{
+	float:left;
+}
+.filler
+{
+    float:left;
+    margin:0px 10px 0px 10px;
+    width:260px;
+    height:100px;
+    text-align:left;
+}
+.portlayout
+{
+    float:left;
+    margin:0px 10px 0px 10px;
+    width:auto;
+    height:300px;
+    text-align:left;
+}
+
+.filelayout
+{
+    float:left;
+    margin:0px;
+    width:auto;
+    height:400px;
+    text-align:left;
+}
+#textbox1
+{
+	width: 250px;
+}
+#list
+{
+	padding:0px;
+}
+#list2
+{
+	padding:0px;
+}
+#t4list
+{
+	padding:0px;
+}
+#u4list
+{
+	padding:0px;
+}
+#t6list
+{
+	padding:0px;
+}
+#u6list
+{
+	padding:0px;
+}
+
+
+.msgreply
+{
+	margin-left: 10px;
+}
+ul
+{
+	list-style-type: none;
+}
+ul li
+{
+	margin-left: 10px;
+}
+
+.label
+{
+
+font-weight: Bold;
+font-size: 20px;
+
+
+}
+#filelist
+{
+	height: 300px;
+	width: 600px;
+	overflow-y: scroll;
+	resize: both;
+	overflow:auto;
+	border: 1px solid #cccccc;
+	box-shadow: 2px 2px 5px #888888;
+	margin-bottom:10px;
+}
+#listgroup
+{
+	height: 300px;
+	width: 300px;
+	overflow-y: scroll;
+	resize: both;
+	border: 1px solid #cccccc;
+		box-shadow: 2px 2px 5px #888888;
+		margin-bottom:10px;
+}
+#listgroup2
+{
+
+	height: 200px;
+	width: 200px;
+	overflow-y: scroll;
+	resize: both;
+	border: 1px solid #cccccc;
+	box-shadow: 2px 2px 5px #888888;
+	margin-bottom:10px;
+}
+
+#button2
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#button3
+{
+	margin-left: 10px;
+
+}
+#button4
+{
+	margin-left:10px;
+}
+
